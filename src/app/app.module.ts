@@ -10,6 +10,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { ScriptHackComponent } from './scripthack/scripthack.component';
 
 @NgModule({
    declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
       AboutUsComponent,
       GalleryComponent,
       HeaderComponent,
-      FooterComponent
+      FooterComponent,
+      ScriptHackComponent
    ],
    imports: [
       BrowserModule,
