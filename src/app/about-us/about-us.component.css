@@ -1,0 +1,54 @@
+.in-container {
+  padding: 4em 0 0;
+}
+
+.title-page {
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  line-height: 1.4;
+  letter-spacing: 2px;
+  font-weight: normal;
+  font-style: normal;
+  color: #303030;
+  font-size: 16px;
+  position: relative;
+  text-align: left;
+  margin: 15px 0;
+}
+
+.title-page h2 {
+  line-height: 1em;
+  font-size: 16px;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.title-page h2:before {
+  left: 0px;
+  right: 0px;
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title-page h2 span {
+  background: #fff;
+  padding-right: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.about-content p {
+  text-align: justify;
+}
