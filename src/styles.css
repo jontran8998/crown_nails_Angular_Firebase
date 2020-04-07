@@ -12,7 +12,57 @@ body {
   font-size: 14px;
 }
 
+.eagr-reviews-skeleton-component.jsx-1473416917 {
+  max-width: 100% !important;
+}
 
+.eagr-header-title.jsx-3318628821 {
+  font-weight: lighter !important;
+  font-size: 1.15em !important;
+  color: #2A2A2A !important;
+  font-family: 'Playfair Display', serif !important;
+  text-transform: uppercase !important;
+  line-height: 1.4 !important;
+  letter-spacing: 2px !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  color: #303030 !important;
+  font-size: 16px !important;
+  text-indent: -9999px !important;
+  line-height: 0 !important;
+}
+
+.eagr-header-title.jsx-3318628821:after {
+  content: "Customer Reviews" !important;
+  text-indent: 0 !important;
+  display: block !important;
+  line-height: initial !important;
+
+}
+
+
+.eagr-review-card-container.jsx-274436947 {
+  font-size: .7em !important;
+  font-family: 'Questrial', 'sans-serif' !important;
+  line-height: 15px !important;
+  letter-spacing: 2px !important;
+  font-weight: 300 !important;
+  font-style: normal !important;
+  color: black !important;
+  text-transform: none !important;
+  line-height: normal !important;
+}
+
+.eagr-reviews-skeleton-component, .eagr-reviews-skeleton-component * {
+  font-family: 'Questrial', 'sans-serif' !important;
+  line-height: 15px !important;
+  letter-spacing: 2px !important;
+  font-weight: 300 !important;
+  font-style: normal !important;
+  color: black !important;
+  text-transform: none !important;
+  line-height: normal !important;
+}
 
 @media (max-width: 576px){
   .carousel-indicators li {
