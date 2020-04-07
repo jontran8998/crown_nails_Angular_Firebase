@@ -65,7 +65,7 @@ body {
   line-height: normal !important;
 }
 
-@media (max-width: 576px){
+/* @media (max-width: 576px){
   .carousel-indicators li {
       width: 15px;
   }
@@ -81,7 +81,7 @@ body {
   .business-hours {
       background: none;
   }
-}
+} */
 
 /* Gallery */
 .eapps-instagram-feed-posts-grid-load-more {
