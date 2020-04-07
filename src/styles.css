@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fff;
+  font-family: 'Questrial',Arial,sans-serif;
+  color: #555;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+
+
+@media (max-width: 576px){
+  .carousel-indicators li {
+      width: 15px;
+  }
+
+  h5.card-title {
+      font-size: 0.8em;
+  }
+
+  body {
+      font-size: 10px;
+  }
+
+  .business-hours {
+      background: none;
+  }
+}
