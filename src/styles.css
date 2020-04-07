@@ -12,6 +12,7 @@ body {
   font-size: 14px;
 }
 
+/* Home Page Google Review */
 .eagr-reviews-skeleton-component.jsx-1473416917 {
   max-width: 100% !important;
 }
@@ -80,4 +81,39 @@ body {
   .business-hours {
       background: none;
   }
+}
+
+/* Gallery */
+.eapps-instagram-feed-posts-grid-load-more {
+  background: #ffffff !important;
+  color: black !important;
+  border: 1px solid !important;
+  background: #ffffff !important;
+  margin-top: 20px !important;
+  border: 1px solid #e6e6e6 !important;
+  color: #000 !important;
+  display: inline-block !important;
+  font-size: 0.8em !important;
+  font-weight: normal !important;
+  height: 50px !important;
+  line-height: 50px !important;
+  padding: 0 20px !important;
+  position: relative !important;
+  text-transform: uppercase !important;
+  transition: all 0.3s ease !important;
+  z-index: 2 !important;
+  border: 1px solid #E2E2E2 !important;
+  border-radius: 0 !important;
+}
+
+.eapps-instagram-feed-posts-grid-load-more:hover {
+  background-color: black !important;
+  color: white !important;
+}
+.eapps-instagram-feed-posts-grid-load-more-container.eapps-instagram-feed-posts-grid-load-more-enabled {
+  text-align: center !important;
+}
+
+.eapps-instagram-feed-title {
+  visibility:  hidden !important;
 }
