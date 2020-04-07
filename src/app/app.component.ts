@@ -8,9 +8,8 @@ declare const greenDate: any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'crownnails-site-official';
-
   ngOnInit() {
+    const title = 'Crown Nails and Spa';
     greenDate();
   }
 
