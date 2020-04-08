@@ -21,20 +21,12 @@
             </div>
             <div class="col-sm-8 col-md-8 col-xs-12">
               <h2 class="service-name" id="acrylic nails">Acrylic Nails</h2>
-              <div class="detail-price-item">
-                <span class="detail-price-name">Acrylic Full Set</span>
-                <span class="detail-price-dots"></span>
-                <span class="detail-price-number">60</span>
-              </div>
-              <div class="detail-price-item">
-                <span class="detail-price-name">Acrylic Fill</span>
-                <span class="detail-price-dots"></span>
-                <span class="detail-price-number">55</span>
-              </div>
-              <div class="detail-price-item">
-                <span class="detail-price-name">Ombree Full Set</span>
-                <span class="detail-price-dots"></span>
-                <span class="detail-price-number">60</span>
+                <div *ngFor="let crownService of crownServices">
+                  <div class="detail-price-item">
+                  <span class="detail-price-name">{{crownService.name}}</span>
+                  <span class="detail-price-dots"></span>
+                  <span class="detail-price-number">{{crownService.price}}</span>
+                </div>
               </div>
             </div>
           </div>
