@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {CrownServicesService} from '../crown-services.service';
-import {CrownServicesInterface} from '../crown-services.interface';
+import { ItemsService} from '../service/items.service';
+import { Item } from '../models/Item';
 
 @Component({
   selector: 'app-services',
@@ -8,14 +8,14 @@ import {CrownServicesInterface} from '../crown-services.interface';
   styleUrls: ['./services.component.css']
 })
 export class ServicesComponent implements OnInit {
-  crownServices: CrownServicesInterface[];
-  constructor(private crownServicesService: CrownServicesService) { }
+  items: Item[];
 
-  ngOnInit() {
-    this.getCrownServices();
-  }
-  getCrownServices(): void {
-   this.crownServicesService.getCrownServices()
-    .subscribe(crownServices => this.crownServices = crownServices);
-  }
+ constructor(private itemService: ItemsService) {
+ }
+ ngOnInit() {
+    this.itemService.getItems().subscribe(items => {
+      console.log(items);
+      this.items = items;
+    });
+ }
 }

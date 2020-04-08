@@ -1,7 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+// Need FormsModule for *ngFor and other things
 import { FormsModule } from '@angular/forms';
 
+// Set up for Firebase
+import { AngularFireModule} from '@angular/fire';
+import { AngularFireAnalyticsModule } from '@angular/fire/analytics';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { environment} from '../environments/environment';
+
+// Add other custom components
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -12,6 +20,9 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ScriptHackComponent } from './scripthack/scripthack.component';
+
+// Add Service
+import {ItemsService} from './service/items.service';
 
 @NgModule({
    declarations: [
@@ -28,9 +39,12 @@ import { ScriptHackComponent } from './scripthack/scripthack.component';
    imports: [
       BrowserModule,
       AppRoutingModule,
-      FormsModule
+      FormsModule,
+      AngularFireModule.initializeApp(environment.firebase),
+      AngularFirestoreModule,
+      AngularFireAnalyticsModule
    ],
-   providers: [],
+   providers: [ItemsService],
    bootstrap: [
       AppComponent
    ]

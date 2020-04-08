@@ -21,11 +21,11 @@
             </div>
             <div class="col-sm-8 col-md-8 col-xs-12">
               <h2 class="service-name" id="acrylic nails">Acrylic Nails</h2>
-                <div *ngFor="let crownService of crownServices">
+                <div *ngFor="let item of items">
                   <div class="detail-price-item">
-                  <span class="detail-price-name">{{crownService.name}}</span>
+                  <span class="detail-price-name">{{item.name}}</span>
                   <span class="detail-price-dots"></span>
-                  <span class="detail-price-number">{{crownService.price}}</span>
+                  <span class="detail-price-number">{{item.price}}</span>
                 </div>
               </div>
             </div>
