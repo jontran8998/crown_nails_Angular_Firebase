@@ -14,7 +14,7 @@ html, body {
 
 /* Home Page Google Review */
 .eagr-reviews-skeleton-component.jsx-1473416917 {
-  width: 100% !important;
+  max-width: 100% !important;
 }
 
 .eagr-header-title.jsx-3318628821 {
