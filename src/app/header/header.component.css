@@ -46,3 +46,9 @@ a.nav-link:after {
 .navbar {
   background-color: white;
 }
+
+@media(min-width: 990px) {
+  .home-link {
+    display: none;
+  }
+}
