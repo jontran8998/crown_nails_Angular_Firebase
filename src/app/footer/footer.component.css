@@ -112,3 +112,56 @@ tbody {
   max-width: 100%;
   height: 3.5em;
 }
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  line-height: 25px;
+  letter-spacing: 1.4px;
+  font-weight: 600;
+  font-style: normal;
+  color: #504e50;
+
+}
+
+a.nav-link:hover {
+  color: #000;
+  background: none;
+}
+
+a.nav-link:hover:after{
+  width: 50%;
+  background: #3A3A3A;
+}
+
+a.nav-link:after {
+  content: '';
+  position: relative;
+  top: 9px;
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  transition: width .2s ease, background-color .2s ease;
+}
+
+@media (max-width: 400px) {
+  footer {
+    font-size: 10px;
+  }
+
+  .footer-link {
+    font-size: 8.2px;
+  }
+
+  .logo-site {
+    font-size: 10px;
+  }
+
+  .fa-facebook, .fa-instagram, .fa-map-marked-alt {
+    font-size: 25px;
+    padding-right: 1em;
+  }
+
+}
