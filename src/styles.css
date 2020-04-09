@@ -1,4 +1,4 @@
-body {
+html, body {
   margin: 0 auto;
   position: relative;
   width: 100%;
@@ -14,7 +14,7 @@ body {
 
 /* Home Page Google Review */
 .eagr-reviews-skeleton-component.jsx-1473416917 {
-  max-width: 100% !important;
+  width: 100% !important;
 }
 
 .eagr-header-title.jsx-3318628821 {
@@ -63,6 +63,24 @@ body {
   color: black !important;
   text-transform: none !important;
   line-height: normal !important;
+}
+
+
+.eapps-widget-toolbar-panel-share {
+  position: unset;
+}
+
+.eapps-widget:hover .eapps-widget-toolbar {
+    opacity: 1;
+    pointer-events: auto;
+    display: none;
+}
+
+.eapps-widget-toolbar-panel-wrapper {
+  width: 100%;
+  position: relative;
+  display: none;
+  background-color: #000;
 }
 
 /* @media (max-width: 576px){
