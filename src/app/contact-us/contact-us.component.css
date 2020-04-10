@@ -107,3 +107,8 @@ h4 {
   width: 100%;
   height: 100% !important;
 }
+
+.fancy-box-content a{
+  color: black;
+  background-color: none;
+}

@@ -165,3 +165,21 @@ a.nav-link:after {
   }
 
 }
+
+.policy {
+  padding-right: 1px;
+}
+
+.policy a:hover:after{
+  display: none;
+}
+
+.policy a:after {
+  display: none;
+  font-weight: bold;
+}
+
+#imgrps:after {
+  display: none;
+
+}

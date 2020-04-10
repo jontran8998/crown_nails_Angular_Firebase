@@ -52,3 +52,8 @@ h2 {
 .about-content p {
   text-align: justify;
 }
+
+.about-page {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
