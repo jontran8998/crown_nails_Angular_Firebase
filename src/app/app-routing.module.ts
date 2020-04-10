@@ -5,6 +5,7 @@ import { ServicesComponent } from './services/services.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { PrivatePolicyComponent } from './private-policy/private-policy.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path:  'about-us', component: AboutUsComponent},
   {path:  'gallery', component: GalleryComponent},
   {path:  'contact-us', component: ContactUsComponent},
+  {path:  'policy', component: PrivatePolicyComponent},
 ];
 
 @NgModule({

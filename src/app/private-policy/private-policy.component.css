@@ -1,0 +1,124 @@
+.in-container {
+  padding: 4em 0 0;
+}
+
+.title-page {
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  line-height: 1.4;
+  letter-spacing: 2px;
+  font-weight: normal;
+  font-style: normal;
+  color: #303030;
+  font-size: 16px;
+  position: relative;
+  text-align: left;
+  margin: 15px 0;
+}
+
+.title-page h2 {
+  line-height: 1em;
+  font-size: 16px;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.title-page h2:before {
+  left: 0px;
+  right: 0px;
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title-page h2 span {
+  background: #fff;
+  padding-right: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+@page {
+  margin-bottom: 5pt;
+  margin-top: 5pt
+  }
+
+.calibre {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 0;
+  margin-left: 5pt;
+  margin-right: 5pt;
+  margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: justify
+  }
+.calibre1 {
+  display: block;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1em
+  }
+.calibre2 {
+  display: block;
+  font-family: monospace;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1em;
+  white-space: pre
+  }
+.calibre3 {
+  font-family: monospace;
+  white-space: pre-wrap
+  }
+.calibre4 {
+  display: list-item;
+  list-style-type: none;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0
+  }
+.toc {
+  display: block;
+  list-style-type: decimal;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 0;
+  margin-top: 1em;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0
+  }
+.unnumbered {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0.67em;
+  text-align: left
+  }
+
+
