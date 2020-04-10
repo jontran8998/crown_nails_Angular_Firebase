@@ -23,6 +23,7 @@ import { ScriptHackComponent } from './scripthack/scripthack.component';
 
 // Add Service
 import {ItemsService} from './service/items.service';
+import { PrivatePolicyComponent } from './private-policy/private-policy.component';
 
 @NgModule({
    declarations: [
@@ -34,7 +35,8 @@ import {ItemsService} from './service/items.service';
       GalleryComponent,
       HeaderComponent,
       FooterComponent,
-      ScriptHackComponent
+      ScriptHackComponent,
+      PrivatePolicyComponent
    ],
    imports: [
       BrowserModule,
@@ -44,7 +46,9 @@ import {ItemsService} from './service/items.service';
       AngularFirestoreModule,
       AngularFireAnalyticsModule
    ],
-   providers: [ItemsService],
+   providers: [
+      ItemsService
+   ],
    bootstrap: [
       AppComponent
    ]

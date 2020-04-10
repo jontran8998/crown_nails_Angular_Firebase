@@ -1,38 +1,110 @@
 <div class="container">
   <section class="in-container">
     <div class="title-page">
-      <h2><span>Service</span></h2>
+      <h2><span>Services</span></h2>
     </div>
     <div class="service-container">
       <div class="row">
-        <div class="col-sm-6"></div>
-        <div class="col-sm-6 top-right btn_service_defale" style="padding-bottom: 20px;">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-10 top-right btn_service_defale" style="padding-bottom: 20px;">
           <div class="btn_service_book">
-            <a href="#" class="btn btn-primary btn_make_appointment">Make an appointment</a>
+            <a routerLink='/contact-us' class="btn btn-primary btn_make_appointment">Make an appointment</a>
             <a href="tel:204-504-3359" class="btn btn-primary"><i class="fa fa-phone"></i>Call now</a>
           </div>
         </div>
       </div>
       <div class="animation_scroll_jumpto">
         <div class="scroll_jumpto">
-          <div class="row service-row" id="sci_64">
-            <div class="col-sm-4 col-md-4 col-xs-12 text-center">
-              <div class="circle-service-image"><img src="http://fnail01k.fastboymedia.info/uploads/fnail0hli2zg0/product/thumbnail/1536569789_1536223232_tay-w360.jpg" alt=""></div>
+          <div class="row service-row">
+            <div class="col-sm-6 col-md-6 col-xs-12 text-center">
+              <div class="circle-service-image"><img src="../../assets/images/gel nails.jpg" alt=""></div>
             </div>
-            <div class="col-sm-8 col-md-8 col-xs-12">
-              <h2 class="service-name" id="acrylic nails">Acrylic Nails</h2>
+            <div class="col-sm-6 col-md-6 col-xs-12">
+              <h2 class="service-name" id="acrylic nails">Gel Nails</h2>
                 <div *ngFor="let item of items">
-                  <div class="detail-price-item">
-                  <span class="detail-price-name">{{item.name}}</span>
-                  <span class="detail-price-dots"></span>
-                  <span class="detail-price-number">{{item.price}}</span>
+                  <div *ngIf="item.category == 'Gel Nails'" class="detail-price-item">
+                    <span class="detail-price-name">{{item.name}}</span>
+                    <span class="detail-price-dots"></span>
+                    <span class="detail-price-number">$ {{item.price}}</span>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row service-row" id="sci_67"></div>
-          <div class="row service-row" id="sci_68"></div>
-          <div class="row service-row" id="sci_69"></div>
+          <div class="row service-row">
+            <div class="col-sm-6 col-md-6 col-xs-12 text-center">
+              <div class="circle-service-image"><img src="http://fnail01k.fastboymedia.info/uploads/fnail0hli2zg0/product/thumbnail/1536570052_add-w360.jpg" alt=""></div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-xs-12">
+              <h2 class="service-name" id="Manicure">Manicure</h2>
+                <div *ngFor="let item of items">
+                  <div *ngIf="item.category == 'Manicure'" class="detail-price-item">
+                    <span class="detail-price-name">{{item.name}}</span>
+                    <span class="detail-price-dots"></span>
+                    <span class="detail-price-number">$ {{item.price}}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row service-row">
+            <div class="col-sm-6 col-md-6 col-xs-12 text-center">
+              <div class="circle-service-image"><img src="../../assets/images/pedicure.png" alt=""></div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-xs-12">
+              <h2 class="service-name" id="Pedicure">Pedicure</h2>
+                <div *ngFor="let item of items">
+                  <div *ngIf="item.category == 'Pedicure'" class="detail-price-item">
+                    <span class="detail-price-name">{{item.name}}</span>
+                    <span class="detail-price-dots"></span>
+                    <span class="detail-price-number">$ {{item.price}}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row service-row">
+            <div class="col-sm-6 col-md-6 col-xs-12 text-center">
+              <div class="circle-service-image"><img src="http://fnail01k.fastboymedia.info/uploads/fnail0hli2zg0/product/thumbnail/1536570146_waxing-w360.jpg" alt=""></div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-xs-12">
+              <h2 class="service-name" id="Waxing">Waxing</h2>
+                <div *ngFor="let item of items">
+                  <div *ngIf="item.category == 'Waxing'" class="detail-price-item">
+                    <span class="detail-price-name">{{item.name}}</span>
+                    <span class="detail-price-dots"></span>
+                    <span class="detail-price-number">$ {{item.price}}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row service-row">
+            <div class="col-sm-6 col-md-6 col-xs-12 text-center">
+              <div class="circle-service-image"><img src="../../assets/images/Eyelash.jpg" alt=""></div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-xs-12">
+              <h2 class="service-name" id="Eyelash">Eyelash</h2>
+                <div *ngFor="let item of items">
+                  <div *ngIf="item.category == 'Eyelash'" class="detail-price-item">
+                    <span class="detail-price-name">{{item.name}}</span>
+                    <span class="detail-price-dots"></span>
+                    <span class="detail-price-number">$ {{item.price}}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row service-row">
+            <div class="col-sm-6 col-md-6 col-xs-12 text-center">
+              <div class="circle-service-image"><img src="../../assets/images/kids.jpg" alt=""></div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-xs-12">
+              <h2 class="service-name" id="Kids">Kids</h2>
+                <div *ngFor="let item of items">
+                  <div *ngIf="item.category == 'Kids'" class="detail-price-item">
+                    <span class="detail-price-name">{{item.name}}</span>
+                    <span class="detail-price-dots"></span>
+                    <span class="detail-price-number">$ {{item.price}}</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ export class ServicesComponent implements OnInit {
  }
  ngOnInit() {
     this.itemService.getItems().subscribe(items => {
-      console.log(items);
+      // console.log(items);
       this.items = items;
     });
  }

@@ -9,7 +9,7 @@ export class ItemsService {
   itemsCollection: AngularFirestoreCollection<Item>;
   items: Observable<Item[]>;
   constructor(public firestore: AngularFirestore) {
-    this.items = this.firestore.collection('items').valueChanges();
+    this.items = this.firestore.collection('items', ref => ref.orderBy('name')).valueChanges();
   }
 
   getItems() {
