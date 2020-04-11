@@ -50,6 +50,18 @@ tbody {
   padding-right: 1em;
 }
 
+.fa-facebook:before {
+  color: #02205f;
+}
+
+.fa-instagram:before {
+  color: #940616;  
+}
+
+.fa-map-marked-alt:before {
+  color: rgb(1, 53, 66);
+}
+
 .text-muted a:hover {
   color: #000;
   text-decoration: none;
@@ -68,7 +80,7 @@ tbody {
   margin: auto;
   height: 3px;
   width: 0px;
-  background: transparent;
+  /* background: transparent; */
   transition: width .2s ease, background-color .2s ease;
 }
 
@@ -146,13 +158,13 @@ a.nav-link:after {
   transition: width .2s ease, background-color .2s ease;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 576px) {
   footer {
     font-size: 10px;
   }
 
   .footer-link {
-    font-size: 8.2px;
+    font-size: 10px;
   }
 
   .logo-site {
