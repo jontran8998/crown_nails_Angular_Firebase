@@ -1,5 +1,5 @@
 .text-muted {
-  background-color: #868e96;
+  background-color: #f5f3f1;
   padding-top: 1rem;
   padding-bottom: .5rem;
 }
@@ -85,7 +85,7 @@ tbody {
 }
 
 .business-hours {
-  background: #6c757d; 
+  background: #efe8e1; 
   padding: 20px 14px;
   margin-top: -15px;
   position: relative;
@@ -117,7 +117,7 @@ tbody {
   border-bottom: none; 
 }
 .business-hours .opening-hours li.today {
-  color: hsl(128, 100%, 52%); 
+  font-weight: bolder; 
 }
 
 .imgrps {
@@ -127,7 +127,7 @@ tbody {
 
 .logo-site h3 {
   font-family: 'Bernald MT Condensed', serif;
-  color: #810404;
+  color: #ddac18;
   font-weight: bold;
 }
 
@@ -166,6 +166,10 @@ a.nav-link:after {
   width: 0px;
   background: transparent;
   transition: width .2s ease, background-color .2s ease;
+}
+
+.policy a:hover {
+  font-weight: bolder;
 }
 
 @media (max-width: 576px) {

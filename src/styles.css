@@ -41,6 +41,9 @@ html, body {
   text-indent: 0 !important;
   display: block !important;
   line-height: initial !important;
+  font-weight: bolder !important;
+  font-size: 20px !important;
+  color: #810404 !important;
 
 }
 
