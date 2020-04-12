@@ -125,6 +125,16 @@ tbody {
   height: 3.5em;
 }
 
+.logo-site h3 {
+  font-family: 'Bernald MT Condensed', serif;
+  color: #810404;
+  font-weight: bold;
+}
+
+#ampersand {
+  font-family: 'Alice', serif;
+}
+
 .navbar-light .navbar-nav .nav-link {
   font-family: "Open Sans";
   text-transform: uppercase;
@@ -164,7 +174,7 @@ a.nav-link:after {
   }
 
   .footer-link {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .logo-site {
@@ -174,6 +184,10 @@ a.nav-link:after {
   .fa-facebook, .fa-instagram, .fa-map-marked-alt {
     font-size: 25px;
     padding-right: 1em;
+  }
+
+  h3 {
+    font-size: 1.3rem;
   }
 
 }
@@ -191,7 +205,7 @@ a.nav-link:after {
   font-weight: bold;
 }
 
-#imgrps:after {
+#logo:after {
   display: none;
 
 }

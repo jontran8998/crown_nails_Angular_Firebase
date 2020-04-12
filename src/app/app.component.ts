@@ -12,5 +12,4 @@ export class AppComponent implements OnInit {
     const title = 'Crown Nails and Spa';
     greenDate();
   }
-
 }
