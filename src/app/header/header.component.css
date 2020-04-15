@@ -53,8 +53,9 @@ a.nav-link:after {
   font-family: 'Bernald MT Condensed', serif;
   color: #ddac18;
   font-weight: bold;
-  transform: translate(0px, 20px);
+  transform: translate(0px, 3px);
   opacity: 0.8;
+  margin-bottom: 0px;
 }
 
 .imgrps h3:hover {
@@ -62,7 +63,7 @@ a.nav-link:after {
 }
 
 .imgrps img {
-  transform: translate(10px, -10px);
+  transform: translate(10px, -29px);
   height: 50px;
   width: 70px;
   opacity: 0.8;
@@ -87,6 +88,7 @@ a.nav-link:after {
 .navbar {
   background-color: white;
   margin-bottom: 10px;
+  padding: 15px 0px 0px 0px ;
 }
 
 @media(min-width: 990px) {

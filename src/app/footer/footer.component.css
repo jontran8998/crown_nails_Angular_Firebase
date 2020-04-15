@@ -51,15 +51,15 @@ tbody {
 }
 
 .fa-facebook:before {
-  color: #02205f;
+  color: #174dbe;
 }
 
 .fa-instagram:before {
-  color: #940616;  
+  color: #d00c22;  
 }
 
 .fa-map-marked-alt:before {
-  color: rgb(1, 53, 66);
+  color: #1ca9cc;
 }
 
 .text-muted a:hover {

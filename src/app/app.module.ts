@@ -25,6 +25,7 @@ import { ScriptHackComponent } from './scripthack/scripthack.component';
 import {ItemsService} from './service/items.service';
 import { PrivatePolicyComponent } from './private-policy/private-policy.component';
 
+
 @NgModule({
    declarations: [
       AppComponent,
@@ -36,7 +37,7 @@ import { PrivatePolicyComponent } from './private-policy/private-policy.componen
       HeaderComponent,
       FooterComponent,
       ScriptHackComponent,
-      PrivatePolicyComponent
+      PrivatePolicyComponent,
    ],
    imports: [
       BrowserModule,

@@ -112,3 +112,8 @@ h4 {
   color: black;
   background-color: none;
 }
+
+a:hover {
+  font-weight: bolder;
+  text-decoration: none;
+}

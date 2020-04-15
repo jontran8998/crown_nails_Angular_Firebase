@@ -151,3 +151,8 @@ h2 {
   color: #000000;
   /* font-weight: 600; */
 }
+
+.item-description p {
+  padding-left: 20px;
+  margin: 0px;
+}

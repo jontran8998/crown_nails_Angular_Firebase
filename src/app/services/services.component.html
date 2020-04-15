@@ -1,5 +1,5 @@
 <div class="container">
-  <section class="in-container">
+  <div class="in-container">
     <div class="title-page">
       <h2><span>Services</span></h2>
     </div>
@@ -16,97 +16,127 @@
       <div class="animation_scroll_jumpto">
         <div class="scroll_jumpto">
           <div class="row service-row">
-            <div class="col-sm-6 col-md-6 col-xs-12 text-center">
-              <div class="circle-service-image"><img src="../../assets/images/gel nails.jpg" alt=""></div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-xs-12">
-              <h2 class="service-name" id="acrylic nails">Gel Nails</h2>
-                <div *ngFor="let item of items">
-                  <div *ngIf="item.category == 'Gel Nails'" class="detail-price-item">
-                    <span class="detail-price-name">{{item.name}}</span>
-                    <span class="detail-price-dots"></span>
-                    <span class="detail-price-number">$ {{item.price}}</span>
+              <div class="col-sm-6 col-md-6 col-xs-12 text-center">
+                <div class="circle-service-image"><img src="../../assets/images/gel nails.jpg" alt=""></div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-xs-12">
+                <h2 class="service-name">Crown Nails</h2>
+                  <div *ngFor="let item of items">
+                    <div *ngIf="item.category == 'Crown Nails'">
+                      <div class="detail-price-item">
+                        <span class="detail-price-name">{{item.name}}</span>
+                        <span class="detail-price-dots"></span>
+                        <span class="detail-price-number">$ {{item.price}}</span>
+                      </div>
+                      <div *ngIf="item.description" class="item-description">
+                        <p><i>({{item.description}})</i></p>
+                      </div>
+                    </div>
                 </div>
               </div>
-            </div>
           </div>
           <div class="row service-row">
-            <div class="col-sm-6 col-md-6 col-xs-12 text-center">
-              <div class="circle-service-image"><img src="../../assets/images/manicure-services.jpg" alt=""></div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-xs-12">
-              <h2 class="service-name" id="Manicure">Manicure</h2>
-                <div *ngFor="let item of items">
-                  <div *ngIf="item.category == 'Manicure'" class="detail-price-item">
-                    <span class="detail-price-name">{{item.name}}</span>
-                    <span class="detail-price-dots"></span>
-                    <span class="detail-price-number">$ {{item.price}}</span>
+              <div class="col-sm-6 col-md-6 col-xs-12 text-center">
+                <div class="circle-service-image"><img src="../../assets/images/manicure-services.jpg" alt=""></div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-xs-12">
+                <h2 class="service-name">Manicure</h2>
+                  <div *ngFor="let item of items">
+                    <div *ngIf="item.category == 'Manicure'">
+                      <div class="detail-price-item">
+                        <span class="detail-price-name">{{item.name}}</span>
+                        <span class="detail-price-dots"></span>
+                        <span class="detail-price-number">$ {{item.price}}</span>
+                      </div>
+                      <div *ngIf="item.description" class="item-description">
+                        <p><i>({{item.description}})</i></p>
+                      </div>
+                    </div>
                 </div>
               </div>
-            </div>
           </div>
           <div class="row service-row">
-            <div class="col-sm-6 col-md-6 col-xs-12 text-center">
-              <div class="circle-service-image"><img src="../../assets/images/pedicure.jpg" alt=""></div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-xs-12">
-              <h2 class="service-name" id="Pedicure">Pedicure</h2>
-                <div *ngFor="let item of items">
-                  <div *ngIf="item.category == 'Pedicure'" class="detail-price-item">
-                    <span class="detail-price-name">{{item.name}}</span>
-                    <span class="detail-price-dots"></span>
-                    <span class="detail-price-number">$ {{item.price}}</span>
+              <div class="col-sm-6 col-md-6 col-xs-12 text-center">
+                <div class="circle-service-image"><img src="../../assets/images/pedicure.jpg" alt=""></div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-xs-12">
+                <h2 class="service-name">Pedicure</h2>
+                  <div *ngFor="let item of items">
+                    <div *ngIf="item.category == 'Pedicure'">
+                      <div class="detail-price-item">
+                        <span class="detail-price-name">{{item.name}}</span>
+                        <span class="detail-price-dots"></span>
+                        <span class="detail-price-number">$ {{item.price}}</span>
+                      </div>
+                      <div *ngIf="item.description" class="item-description">
+                        <p><i>({{item.description}})</i></p>
+                      </div>
+                    </div>
                 </div>
               </div>
-            </div>
           </div>
           <div class="row service-row">
-            <div class="col-sm-6 col-md-6 col-xs-12 text-center">
-              <div class="circle-service-image"><img src="../../assets/images/waxing.jpg" alt=""></div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-xs-12">
-              <h2 class="service-name" id="Waxing">Waxing</h2>
-                <div *ngFor="let item of items">
-                  <div *ngIf="item.category == 'Waxing'" class="detail-price-item">
-                    <span class="detail-price-name">{{item.name}}</span>
-                    <span class="detail-price-dots"></span>
-                    <span class="detail-price-number">$ {{item.price}}</span>
+              <div class="col-sm-6 col-md-6 col-xs-12 text-center">
+                <div class="circle-service-image"><img src="../../assets/images/waxing.jpg" alt=""></div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-xs-12">
+                <h2 class="service-name">Waxing</h2>
+                  <div *ngFor="let item of items">
+                    <div *ngIf="item.category == 'Waxing'">
+                      <div class="detail-price-item">
+                        <span class="detail-price-name">{{item.name}}</span>
+                        <span class="detail-price-dots"></span>
+                        <span class="detail-price-number">$ {{item.price}}</span>
+                      </div>
+                      <div *ngIf="item.description" class="item-description">
+                        <p><i>({{item.description}})</i></p>
+                      </div>
+                    </div>
                 </div>
               </div>
-            </div>
           </div>
           <div class="row service-row">
-            <div class="col-sm-6 col-md-6 col-xs-12 text-center">
-              <div class="circle-service-image"><img src="../../assets/images/Eyelash.jpg" alt=""></div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-xs-12">
-              <h2 class="service-name" id="Eyelash">Eyelash</h2>
-                <div *ngFor="let item of items">
-                  <div *ngIf="item.category == 'Eyelash'" class="detail-price-item">
-                    <span class="detail-price-name">{{item.name}}</span>
-                    <span class="detail-price-dots"></span>
-                    <span class="detail-price-number">$ {{item.price}}</span>
+              <div class="col-sm-6 col-md-6 col-xs-12 text-center">
+                <div class="circle-service-image"><img src="../../assets/images/Eyelash.jpg" alt=""></div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-xs-12">
+                <h2 class="service-name">Eyelash</h2>
+                  <div *ngFor="let item of items">
+                    <div *ngIf="item.category == 'Eyelash'">
+                      <div class="detail-price-item">
+                        <span class="detail-price-name">{{item.name}}</span>
+                        <span class="detail-price-dots"></span>
+                        <span class="detail-price-number">$ {{item.price}}</span>
+                      </div>
+                      <div *ngIf="item.description" class="item-description">
+                        <p><i>({{item.description}})</i></p>
+                      </div>
+                    </div>
                 </div>
               </div>
-            </div>
           </div>
           <div class="row service-row">
-            <div class="col-sm-6 col-md-6 col-xs-12 text-center">
-              <div class="circle-service-image"><img src="../../assets/images/kids.jpg" alt=""></div>
-            </div>
-            <div class="col-sm-6 col-md-6 col-xs-12">
-              <h2 class="service-name" id="Kids">Kids</h2>
-                <div *ngFor="let item of items">
-                  <div *ngIf="item.category == 'Kids'" class="detail-price-item">
-                    <span class="detail-price-name">{{item.name}}</span>
-                    <span class="detail-price-dots"></span>
-                    <span class="detail-price-number">$ {{item.price}}</span>
+              <div class="col-sm-6 col-md-6 col-xs-12 text-center">
+                <div class="circle-service-image"><img src="../../assets/images/kids.jpg" alt=""></div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-xs-12">
+                <h2 class="service-name">Kids under 7 years old</h2>
+                  <div *ngFor="let item of items">
+                    <div *ngIf="item.category == 'Kids'">
+                      <div class="detail-price-item">
+                        <span class="detail-price-name">{{item.name}}</span>
+                        <span class="detail-price-dots"></span>
+                        <span class="detail-price-number">$ {{item.price}}</span>
+                      </div>
+                      <div *ngIf="item.description" class="item-description">
+                        <p><i>({{item.description}})</i></p>
+                      </div>
+                    </div>
                 </div>
               </div>
-            </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </div>
